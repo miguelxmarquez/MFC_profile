@@ -1,0 +1,1700 @@
+@charset "UTF-8";
+
+a:visited,a:link,a:active,a:hover {
+  color:grey;
+}
+
+a:link {
+  text-decoration:none;
+}
+
+body {
+  font-size:1rem;
+  line-height:1;
+  color:rgb(255,255,255);
+  padding:0;
+  margin:0;
+  padding-bottom:50px;
+}
+
+body {
+  background-image:url(http://i.imgur.com/bucYhR0.png);
+  background-color:;
+/* sfondo */
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+@media (max-width: 980px) {
+  body {
+    background-image:url(http://i.imgur.com/vDF6Pw0.png);
+  }
+}
+
+ul {
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+ol {
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+/* ========================================================================
+   Classes for MFC Generated Elements
+   ====================================================================== */
+/* tutti gli elementi di about me */
+#cam_score_container,#height_container,#sexual_preference_container,#marital_status_container,#occupation_container,#school_container,#favorite_food_container,#automobile_container,#pets_container,#age_container,#city_container,#country_container,#drink_container,#drugs_container,#smoke_container,#weight_container,#eyes_container,#hair_container,#ethnicity_container,#body_type_container,#gender_container,#username_container {
+  display:none;
+}
+
+#footer_bar,#header_bar {
+  display:none;
+}
+
+#about_me_label,#profile_about_me > div:nth-child(1) {
+  display:none;
+}
+
+#tags_container,#tags_label,#tags_value {
+  display:none;
+}
+
+#profile_main_photo,#profile_avatar,#avatar_holder {
+  display:none;
+}
+
+#blurb_container {
+/* scritta dell' headline */
+  display:none;
+}
+
+#profile_header_container {
+/* etichetta status */
+  position:absolute;
+  background:#ffffff;
+  background:-moz-linear-gradient(top,#ffffff 1%,#efefef 100%);
+  background:-webkit-linear-gradient(top,#ffffff 1%,#efefef 100%);
+  background:linear-gradient(to bottom,#ffffff 1%,#efefef 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#efefef',GradientType=0);
+  border:3px solid #ffc8b6;
+  box-shadow:4px 4px 20px rgba(0,0,0,0.2);
+  -webkit-box-shadow:4px 4px 20px rgba(0,0,0,0.2);
+  -moz-box-shadow:4px 4px 20px rgba(0,0,0,0.2);
+  padding:5px;
+  margin-top:460px;
+  margin-left:290px;
+  z-index:100;
+  font-size:1em;
+  width:316px;
+  min-height:40px!important;
+  text-align:left;
+  color:#000;
+  -ms-transform:rotate(-4deg);
+  -webkit-transform:rotate(-4deg);
+  transform:rotate(-4deg);
+  -webkit-transition:all .3s ease-in-out .1s;
+  -moz-transition:all .3s ease-in-out .1s;
+  -o-transition:all .3s ease-in-out .1s;
+  -ms-transition:all .3s ease-in-out .1s;
+  transition:all .3s ease-in-out .1s;
+  display:none;
+}
+
+#profile_header_container:hover {
+  -ms-transform:rotate(0deg);
+  -webkit-transform:rotate(0deg);
+  transform:rotate(0deg);
+}
+
+#status_container,#unix_last_broadcast_container,#unix_last_updated_container {
+/* caratteristiche font per titoli etichette */
+  color:black;
+}
+
+#unix_last_updated_value,#unix_last_broadcast_value {
+/* caratteristiche font per valori dell'etichetta */
+  color:black;
+}
+
+#status_container a:link {
+  color:black;
+  text-decoration:none;
+/* per togliere la sottolineatura */
+}
+
+#status_container a:visited {
+  color:black;
+}
+
+#status_container a:active {
+  color:black;
+}
+
+#status_container a:hover {
+  color:#f58f6d;
+}
+
+/* ========================================================================
+   Sezione del Profilo
+   ====================================================================== */
+#profile {
+  width:1000px;
+  margin:0 auto;
+  background-color:;
+/* colonna centrale */
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:fixed;
+  background-attachment:fixed;
+  font-size:.875em;
+  line-height:1.25;
+  color:black;
+  box-shadow:0 0 70px rgba(0,0,0,0);
+  -webkit-box-shadow:0 0 70px rgba(0,0,0,0);
+  -moz-box-shadow:0 0 70px rgba(0,0,0,0);
+  opacity:0;
+  -webkit-animation:fadeIn ease 1;
+  -moz-animation:fadeIn ease 1;
+  -o-animation:fadeIn ease 1;
+  animation:fadeIn ease 1;
+  -ms-animation:fadeIn ease 1s;
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  -o-animation:forwards;
+  animation-fill-mode:forwards;
+  -ms-animation-fill-mode:forwards;
+  animation-duration:1s;
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  -o-animation-duration:1s;
+  -ms-animation-duration:1s;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#profile_header {
+}
+
+.profile_section {
+  border-spacing:0;
+}
+
+.profile_section .heading {
+  color:rgba(0,0,0,1);
+  margin:20px auto;
+  padding:0;
+  width:1000px;
+  height:50px;
+  line-height:70px;
+  font-size:25px;
+  font-family:;
+  text-transform:capitalize;
+  text-align:center;
+  letter-spacing:-1px;
+  font-weight:300;
+  display:none;
+}
+
+.profile_section_content {
+  z-index:auto;
+  padding:0;
+  margin:0;
+}
+
+#profile_aboutme {
+  margin:25px 0 0;
+}
+
+#meet_aboutme_value {
+  display:block;
+  margin:0 auto;
+}
+
+img {
+  border-radius:0;
+  box-shadow:none;
+}
+
+.img_radius_shadow {
+  border-radius:0;
+  box-shadow:none;
+}
+
+#img_preview {
+  box-shadow:none;
+}
+
+#img_preview,#img_preview img {
+  background:rgba(0,0,0,0);
+  border-radius:0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  -o-border-radius:0;
+}
+
+.images {
+  padding:10px;
+  margin:10px;
+}
+
+.container {
+  display:block;
+  margin:0;
+}
+
+.notice {
+  color:rgba(8,8,8,0.8);
+}
+
+/* ===================================== Turni ======================================= */
+#profile_schedule {
+  display:block;
+  background-color:re;
+  display:block;
+  position:absolute;
+  margin-top:-2740px;
+  width:1000px;
+  text-align:left;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  display:none;
+}
+
+#profile_schedule .container {
+  background-color:rgba(0,0,0,0);
+  border:0 solid white;
+  position:relative;
+  top:15px;
+  display:inline-block;
+  width:125px;
+  height:130px;
+  margin:0 auto;
+  padding:0;
+  margin-left:0;
+  border-radius:0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+}
+
+#schedule_day_0_container {
+  margin-left:10px!important;
+}
+
+#profile_schedule .label {
+  display:block;
+  width:100%;
+  font-size:15px;
+  line-height:1em;
+  text-align:center;
+  margin-top:15px;
+  color:#a493b7;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+}
+
+#profile_schedule .value {
+  display:block;
+  position:absolute;
+  font-size:11px;
+  font-weight:normal;
+  color:#797878;
+  text-align:center;
+  margin-top:10px;
+  background-color:;
+  width:100px;
+  margin-left:12px;
+}
+
+.emphasis {
+  font-weight:normal;
+}
+
+#schedule_converted {
+  text-align:center;
+  font-size:10px;
+  background-color:;
+  color:grey;
+  width:940px;
+  height:20px;
+  margin-top:-20px;
+  padding-bottom:100px;
+}
+
+/* ========================================================================                 Sezione delle Gallerie Fotografiche              ====================================================================== */
+#profile_photo_galleries {
+  display:block;
+  position:relative;
+  background-color:re;
+  margin-top:-100px;
+  display:none;
+}
+
+#profile_password_photo_galleries {
+  position:relative;
+  margin:0 auto;
+  padding-top:30px;
+  padding-bottom:80px;
+  display:none;
+}
+
+.photo_gallery_link {
+  display:block;
+  background-color:rd;
+}
+
+.photo_gallery_preview {
+  margin:0;
+  display:inline-block;
+  width:190px;
+  background-color:#ee9f8;
+  padding:1px 20px 30px;
+/* Questo valore determina la larghezza dello spazio per ogni galleria */
+}
+
+.password_photo_gallery_preview {
+  margin:0;
+  display:inline-block;
+  width:190px;
+  background-color:violet;
+  padding:1px 20px 30px;
+/* Questo valore determina la larghezza dello spazio per ogni galleria */
+}
+
+.photo_gallery_previews {
+  text-align:center;
+/* per posizionare centralmente le anteprime delle gallerie */
+  background-color:re;
+  margin-top:200px;
+}
+
+#password_photo_gallery_previews {
+  background-color:yello;
+  margin-top:-45px;
+}
+
+.photo_gallery_name,.photo_gallery_name a {
+/* caratteristiche del font per il titolo di ciascuna galleria fotografica */
+  font-size:14px;
+  text-decoration:none;
+  letter-spacing:;
+  color:grey;
+  font-weight:1000;
+  text-transform:capitalize;
+  -webkit-transition:all .3s ease-in-out .1s;
+  -moz-transition:all .3s ease-in-out .1s;
+  -o-transition:all .3s ease-in-out .1s;
+  -ms-transition:all .3s ease-in-out .1s;
+  transition:all .3s ease-in-out .1s;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style:;
+}
+
+.photo_gallery_count {
+/* caratteristiche del font per il contatore delle foto */
+  text-transform:uppercase;
+  font-size:8px;
+  letter-spacing:;
+  color:white;
+  font-weight:1000;
+}
+
+.photo_gallery_image {
+  width:130px;
+  height:130px;
+  border:2px solid #f5d69e;
+/* cornice attorno alle icone della galleria immagini */
+  -webkit-transition:all .3s ease-in-out .1s;
+  -moz-transition:all .3s ease-in-out .1s;
+  -o-transition:all .3s ease-in-out .1s;
+  -ms-transition:all .3s ease-in-out .1s;
+  transition:all .3s ease-in-out .1s;
+}
+
+#password_photo_gallery_previews > .photo_gallery_preview > .photo_gallery_link {
+/* immagine per le gallerie protette da password */
+  background-image:url();
+  background-repeat:no-repeat;
+  background-size:118%;
+  height:150px;
+  width:112px;
+  border:solid 0 blue;
+  margin-bottom:5px;
+  margin-left:27px;
+}
+
+.photo_gallery_lock {
+  visibility:hidden;
+}
+
+/* per centrare le immagini contenute in una galleria */
+.images {
+  text-align:center;
+  background-color:;
+}
+
+/* ========================================================================                        Sezione della barra superiore              ====================================================================== */
+.barrasuperioresemplificata {
+  position:fixed;
+  height:80px;
+  width:100%;
+  text-align:center;
+  top:0;
+  left:0;
+  z-index:10;
+  background:rgba(255,255,255,1);
+  box-shadow:0 0 30px rgba(0,0,0,0.2);
+  -moz-box-shadow:0 0 30px rgba(0,0,0,0.2);
+  -o-box-shadow:0 0 30px rgba(0,0,0,0.2);
+  -webkit-box-shadow:0 0 30px rgba(0,0,0,0.2);
+}
+
+.elementibarrasuperiore {
+  display:inline-block;
+  vertical-align:top;
+  width:1000px;
+  position:fixed;
+  z-index:9999;
+  text-align:center;
+  background-color:re;
+  margin-top:34px;
+}
+
+.elementibarrasuperiore li {
+  font-size:15px;
+  font-weight:bolder;
+  letter-spacing:3px;
+  float:left;
+  font-weight:400;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+}
+
+.elementibarrasuperiore a {
+  color:#7e7392;
+  text-transform:uppercase;
+}
+
+.elementibarrasuperiore a:hover {
+  color:#ada8a8;
+}
+
+.sociale {
+  height:23px;
+  margin-top:-3px;
+  -webkit-transition:all .3s ease-in-out .1s;
+  -moz-transition:all .3s ease-in-out .1s;
+  -o-transition:all .3s ease-in-out .1s;
+  -ms-transition:all .3s ease-in-out .1s;
+  transition:all .3s ease-in-out .1s;
+  opacity:.6;
+}
+
+.regalino {
+  margin-left:150px;
+}
+
+.posta {
+  margin-left:20px;
+}
+
+.guarda {
+  margin-left:17px;
+}
+
+.sociale:hover {
+  opacity:1;
+}
+
+/* ======================== Sezione della Pagina Iniziale ======================== */
+#ContentHeader {
+  display:inline-block;
+  position:relative;
+  margin:0 auto;
+  height:800px;
+  width:1000px;
+  background:url(http://i.imgur.com/IwIwOkJ.png);
+  background-size:1000px 800px;
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-color:re;
+}
+
+#ContentHeader h1 {
+  display:block;
+  position:relative;
+  margin-top:450px;
+  margin-left:452px;
+  width:400px;
+  color:white;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+  font-size:30px;
+  font-weight:lighter;
+  background-color:#ffffff9e;
+  letter-spacing:3px;
+  color:#6c5b7f;
+  text-align:center;
+  font-style:initial;
+}
+
+.testomedia {
+  font-family:'Yanone Kaffeesatz',sans-serif;
+  text-align:center;
+  font-size:16px;
+  color:#797878;
+  letter-spacing:;
+  margin-top:-10px;
+  margin-left:452px;
+  width:400px;
+  background-color:re;
+  font-weight:400;
+}
+
+.iconasociale {
+  margin-top:-2px;
+  height:40px;
+  margin-right:20px;
+  -webkit-transition:all .3s ease-in-out .1s;
+  -moz-transition:all .3s ease-in-out .1s;
+  -o-transition:all .3s ease-in-out .1s;
+  -ms-transition:all .3s ease-in-out .1s;
+  transition:all .3s ease-in-out .1s;
+  -webkit-filter:invert(100%);
+  filter:invert(100%);
+  opacity:.7;
+}
+
+.twitter {
+  margin-left:536px;
+}
+
+.iconasociale:hover {
+  opacity:.4;
+}
+
+/* cyrillic */
+@font-face {
+  font-family:'Yanone Kaffeesatz';
+  font-style:normal;
+  font-weight:400;
+  src:local('Yanone Kaffeesatz Regular'),local(YanoneKaffeesatz-Regular),url(https://fonts.gstatic.com/s/yanonekaffeesatz/v9/3y976aknfjLm_3lMKjiMgmUUYBs04Y8fH-qHHt6MDPo.woff2) format("woff2");
+  unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* vietnamese */
+@font-face {
+  font-family:'Yanone Kaffeesatz';
+  font-style:normal;
+  font-weight:400;
+  src:local('Yanone Kaffeesatz Regular'),local(YanoneKaffeesatz-Regular),url(https://fonts.gstatic.com/s/yanonekaffeesatz/v9/3y976aknfjLm_3lMKjiMgmUUYBs04Y8UH-qHHt6MDPo.woff2) format("woff2");
+  unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family:'Yanone Kaffeesatz';
+  font-style:normal;
+  font-weight:400;
+  src:local('Yanone Kaffeesatz Regular'),local(YanoneKaffeesatz-Regular),url(https://fonts.gstatic.com/s/yanonekaffeesatz/v9/3y976aknfjLm_3lMKjiMgmUUYBs04Y8VH-qHHt6MDPo.woff2) format("woff2");
+  unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family:'Yanone Kaffeesatz';
+  font-style:normal;
+  font-weight:400;
+  src:local('Yanone Kaffeesatz Regular'),local(YanoneKaffeesatz-Regular),url(https://fonts.gstatic.com/s/yanonekaffeesatz/v9/3y976aknfjLm_3lMKjiMgmUUYBs04Y8bH-qHHt6M.woff2) format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* ========================================================================                   Sezione del Tutto su di Me           ======================================================================== */
+#aboutmeWrapper {
+  display:block;
+  position:relative;
+  margin:0 auto;
+  height:800px;
+  width:1000px;
+  background-image:url(http://i.imgur.com/WwKFIDE.png);
+  background-size:1000px 800px;
+  background-repeat:no-repeat;
+  background-color:re;
+}
+
+.testosudime {
+  background-color:re;
+  display:inline-block;
+  position:relative;
+  text-align:right;
+  padding:10px;
+  margin-top:200px;
+  margin-left:55px;
+  height:500px;
+  width:300px;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+  overflow:hidden;
+}
+
+.testosudime h3 {
+  color:#a28c8b;
+}
+
+h3 {
+  font-size:20px;
+  letter-spacing:1px;
+  line-height:20px;
+  font-weight:800;
+}
+
+p {
+  font-size:16px;
+  letter-spacing:;
+  line-height:17px;
+  font-weight:400;
+  color:#656565;
+}
+
+/* ========================================================================                   Sezione delle mance           ======================================================================== */
+#tipmenuWrapper {
+  display:block;
+  position:relative;
+  margin:0 auto;
+  height:950px;
+  width:1000px;
+  background-image:url(http://i.imgur.com/39qVRJW.png);
+  background-size:1000px 950px;
+  background-repeat:no-repeat;
+  background-color:re;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+}
+
+.contenitoremance {
+  display:inline-block;
+  background-color:re;
+  margin-top:230px;
+  width:450px;
+  text-align:right;
+  margin-left:60px;
+}
+
+.mancia {
+  font-size:17px;
+  letter-spacing:1px;
+}
+
+.specificamenu {
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing:0;
+  font-size:12px;
+  color:#905381;
+}
+
+.mancia a {
+  color:#676868;
+  -webkit-transition:all .3s ease-in-out .1s;
+  -moz-transition:all .3s ease-in-out .1s;
+  -o-transition:all .3s ease-in-out .1s;
+  -ms-transition:all .3s ease-in-out .1s;
+  transition:all .3s ease-in-out .1s;
+}
+
+.mancia a:hover {
+  opacity:.6;
+}
+
+.prezzomancia {
+  color:#d258b4;
+  font-size:20px;
+}
+
+.valutamancia {
+  color:#a5a4a4;
+  font-size:13px;
+  font-weight:400;
+}
+
+/* ========================================================================                   Sezione delle Squadre           ======================================================================== */
+#clubsWrapper {
+  display:block;
+  position:relative;
+  margin:0 auto;
+  height:1000px;
+  width:1000px;
+  background-image:url(http://i.imgur.com/jKWSvFf.png);
+  background-size:1000px 1000px;
+  background-repeat:no-repeat;
+  background-color:re;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+}
+
+.testosquadre {
+  display:inline-block;
+  position:absolute;
+  background-color:re;
+  margin-top:210px;
+  margin-left:447px;
+  text-align:right;
+  width:380px;
+}
+
+.club {
+  display:inline-block;
+  position:absolute;
+  background-color:re;
+  text-align:center;
+  width:180px;
+  height:300px;
+  padding:10px;
+}
+
+.accesso {
+  display:inline-block;
+  position:relative;
+  height:30px;
+  width:80px;
+  font-size:20px;
+  line-height:30px;
+  margin-left:;
+  font-weight:400;
+  margin-top:17px;
+  -webkit-transition:all .3s ease-in-out .1s;
+  -moz-transition:all .3s ease-in-out .1s;
+  -o-transition:all .3s ease-in-out .1s;
+  -ms-transition:all .3s ease-in-out .1s;
+  transition:all .3s ease-in-out .1s;
+}
+
+.accesso:hover {
+  -ms-transform:scale(.7,.7);
+  -webkit-transform:scale(.7,.7);
+  transform:scale(.7,.7);
+}
+
+.privilegi {
+  background-color:yello;
+  height:140px;
+  margin-top:70px;
+  font-size:16px;
+}
+
+.privilegig {
+  color:#685486;
+}
+
+.privilegip {
+  color:#3f3f40;
+}
+
+.privilegid {
+  color:#855380;
+  font-size:17px;
+}
+
+.accessog {
+  height:30px;
+  width:80px;
+  color:#eddb80;
+  border:1px solid #eddb80;
+}
+
+.accessod {
+  height:35px;
+  line-height:35px;
+  font-size:22px;
+  width:80px;
+  color:#865481;
+  border:1px solid #865481;
+  margin-top:16px;
+}
+
+.accessop {
+  height:30px;
+  width:80px;
+  color:#f2f2f2;
+  border:1px solid #f2f2f2;
+}
+
+.clubg {
+  margin-top:590px;
+  margin-left:152px;
+}
+
+.clubd {
+  margin-top:593px;
+  margin-left:399px;
+}
+
+.clubp {
+  margin-top:590px;
+  margin-left:648px;
+}
+
+/* ========================================================================                   Sezione dei Migliori Contributori      ======================================================================== */
+#HTWrapper {
+  display:block;
+  position:relative;
+  margin:0 auto;
+  height:1200px;
+  width:1000px;
+  background-image:url(http://i.imgur.com/wlfSyES.png);
+  background-size:1000px 1200px;
+  background-repeat:no-repeat;
+  background-color:re;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+}
+
+.testocontributori {
+  background-color:re;
+  display:inline-block;
+  position:relative;
+  text-align:center;
+  margin-top:216px;
+  margin-left:250px;
+  height:70px;
+  width:500px;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+}
+
+.AllTimeName {
+  width:340px;
+  height:60px;
+  margin-left:325px;
+  margin-top:65px;
+  font-size:50px;
+  color:#bf9f5f;
+  font-weight:800;
+}
+
+.AllTimeAmount {
+  width:240px;
+  height:40px;
+  margin-left:375px;
+  margin-top:-35px;
+  font-size:40px;
+  line-height:40px;
+  color:#8a6892;
+  font-weight:800;
+}
+
+.YearYear {
+  width:70px;
+  height:20px;
+  margin-left:460px;
+  margin-top:171px;
+  font-size:25px;
+  line-height:20px;
+  color:#629b93;
+  font-weight:400;
+}
+
+.YearName {
+  width:300px;
+  height:50px;
+  line-height:50px;
+  margin-left:345px;
+  margin-top:-11px;
+  font-size:45px;
+  color:#77aca5;
+  font-weight:400;
+}
+
+.YearAmount {
+  width:140px;
+  height:40px;
+  line-height:20px;
+  margin-left:425px;
+  margin-top:-36px;
+  font-size:35px;
+  color:#8a6892;
+  font-weight:400;
+  border-top:1px solid #8a6892;
+}
+
+.MonthMonth {
+  width:70px;
+  height:18px;
+  margin-left:460px;
+  margin-top:144px;
+  font-size:18px;
+  line-height:18px;
+  color:#b15809;
+  font-weight:400;
+}
+
+.MonthName {
+  width:290px;
+  height:35px;
+  line-height:35px;
+  margin-left:350px;
+  margin-top:-7px;
+  font-size:35px;
+  color:#b35e13;
+  font-weight:400;
+}
+
+.MonthAmount {
+  width:100px;
+  height:20px;
+  line-height:20px;
+  margin-left:445px;
+  margin-top:-34px;
+  font-size:25px;
+  color:#8a6892;
+  font-weight:400;
+  border-top:1px solid #8a6892;
+}
+
+.AllTimeName,.AllTimeAmount,.YearYear,.YearName,.YearAmount,.MonthMonth,.MonthName,.MonthAmount {
+  display:block;
+  position:relative;
+  padding:5px;
+  overflow:hidden;
+  text-align:center;
+  background-color:#ff00003;
+}
+
+/* ========================================================================                   Sezione delle piattaforma di condivisione contenuti    ======================================================================== */
+#shareWrapper {
+  display:block;
+  position:relative;
+  margin:0 auto;
+  height:950px;
+  width:1000px;
+  background-image:url(http://i.imgur.com/Bfbo6lj.png);
+  background-size:1000px 950px;
+  background-repeat:no-repeat;
+  background-color:re;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#shareWrapper iframe {
+  background-color:gree;
+  margin-top:210px;
+  margin-left:59px;
+  width:612px;
+  height:700px;
+}
+
+.testocontenuti {
+  background-color:re;
+  display:inline-block;
+  position:absolute;
+  text-align:left;
+  padding:10px;
+  margin-top:210px;
+  margin-left:25px;
+  height:500px;
+  width:200px;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+  overflow:hidden;
+}
+
+.testocontenuti a:link {
+  color:#2f8e63;
+  text-transform:uppercase;
+  font-weight:bolder;
+}
+
+.testocontenuti a:visited {
+  color:#2f8e63;
+}
+
+.testocontenuti a:active {
+  color:#2f8e63;
+}
+
+.testocontenuti a:hover {
+  color:#bf354c;
+}
+
+.testocontenuti h3 {
+  color:#587b6b;
+}
+
+/* ========================================================================                   Sezione delle Riffe ======================================================================== */
+#raffleWrapper {
+  display:block;
+  position:relative;
+  margin:0 auto;
+  height:950px;
+  width:1000px;
+  background-image:url(http://i.imgur.com/ASwhYQh.png);
+  background-size:1000px 950px;
+  background-repeat:no-repeat;
+  background-color:re;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+}
+
+.testoriffa {
+  background-color:re;
+  display:inline-block;
+  position:relative;
+  text-align:left;
+  margin-top:216px;
+  margin-left:250px;
+  height:40px;
+  width:500px;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+}
+
+.maddie-image {
+  background-color:;
+  display:block;
+  position:absolute;
+  width:750px;
+  height:500px;
+  border-radius:35px;
+  margin-top:45px;
+  margin-left:113px;
+  border:12px solid white;
+  box-shadow:0 6px 50px rgba(0,0,0,0.15);
+  -moz-box-shadow:0 6px 50px rgba(0,0,0,0.15);
+  -webkit-box-shadow:0 6px 50px rgba(0,0,0,0.15);
+  opacity:.8;
+}
+
+/* =====================  Sezione del marchio del mattone  ========================= */
+.MyLogo {
+  display:inline-block;
+  position:fixed;
+  width:175px;
+  height:45px;
+  background-image:url(http://i.imgur.com/hvl8dfn.png);
+  background-repeat:no-repeat;
+  background-size:100%;
+  bottom:35px;
+  left:5px;
+  z-index:1000;
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+}
+
+.MyLogo:hover {
+  -moz-animation:shake .82s cubic-bezier(.36,.07,.19,.97) both;
+  -webkit-animation:shake .82s cubic-bezier(.36,.07,.19,.97) both;
+  -o-animation:shake .82s cubic-bezier(.36,.07,.19,.97) both;
+  -ms-animation:shake .82s cubic-bezier(.36,.07,.19,.97) both;
+  animation:shake .82s cubic-bezier(.36,.07,.19,.97) both;
+  -moz-animation-fill-mode:forwards;
+  -webkit-animation-fill-mode:forwards;
+  -o-animation-fill-mode:forwards;
+  -ms-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes shake {
+  10%,90% {
+    transform:translate3d(-2px,0,0);
+  }
+  
+  20%,80% {
+    transform:translate3d(3px,0,0);
+  }
+  
+  30%,50%,70% {
+    transform:translate3d(-6px,0,0);
+  }
+  
+  40%,60% {
+    transform:translate3d(6px,0,0);
+  }
+}
+
+@-moz-keyframes shake {
+  10%,90% {
+    transform:translate3d(-2px,0,0);
+  }
+  
+  20%,80% {
+    transform:translate3d(3px,0,0);
+  }
+  
+  30%,50%,70% {
+    transform:translate3d(-6px,0,0);
+  }
+  
+  40%,60% {
+    transform:translate3d(6px,0,0);
+  }
+}
+
+@-o-keyframes shake {
+  10%,90% {
+    transform:translate3d(-2px,0,0);
+  }
+  
+  20%,80% {
+    transform:translate3d(3px,0,0);
+  }
+  
+  30%,50%,70% {
+    transform:translate3d(-6px,0,0);
+  }
+  
+  40%,60% {
+    transform:translate3d(6px,0,0);
+  }
+}
+
+@keyframes shake {
+  10%,90% {
+    transform:translate3d(-2px,0,0);
+  }
+  
+  20%,80% {
+    transform:translate3d(3px,0,0);
+  }
+  
+  30%,50%,70% {
+    transform:translate3d(-6px,0,0);
+  }
+  
+  40%,60% {
+    transform:translate3d(6px,0,0);
+  }
+}
+
+/* ========================================================================
+   Loader
+   ====================================================================== */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+  
+  to {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+  
+  to {
+    opacity:1;
+  }
+}
+
+@-o-animation fadeIn {
+  fromopacity:0;
+}
+
+to {
+  opacity:1;
+}  
+}
+
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+  
+  to {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+  
+  to {
+    opacity:1;
+  }
+}
+
+.fade-in {
+  opacity:0;
+  -webkit-animation:fadeIn ease 1;
+  -moz-animation:fadeIn ease 1;
+  -o-animation:fadeIn ease 1;
+  animation:fadeIn ease 1;
+  -ms-animation:fadeIn ease 1s;
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  -o-animation:forwards;
+  animation-fill-mode:forwards;
+  -ms-animation-fill-mode:forwards;
+  animation-duration:1s;
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  -o-animation-duration:1s;
+  -ms-animation-duration:1s;
+}
+
+/* ========================================================================
+      Sezione degli interessi ed hobby
+   ====================================================================== */
+#profile_interests_content .value {
+/* per fare le risposte alle domande non in grassetto */
+  font-weight:normal;
+  margin-left:0!important;
+}
+
+#meaning_life_container {
+  padding-top:15px;
+/* per distanziare il titolo della sezione da ciò che segue */
+}
+
+#profile_interests_content {
+/* E' il contenitore di tutta la sezione di "interessi e hobby" */
+  background:#3f3f3f;
+/* Old browsers */
+  background:-moz-radial-gradient(center,ellipse cover,#3f3f3f 0%,#000000 100%);
+/* FF3.6-15 */
+  background:-webkit-radial-gradient(center,ellipse cover,#3f3f3f 0%,#000000 100%);
+/* Chrome10-25,Safari5.1-6 */
+  background:radial-gradient(ellipse at center,#3f3f3f 0%,#000000 100%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f3f3f',endColorstr='#000000',GradientType=1);
+/* IE6-9 fallback on horizontal gradient */
+}
+
+.profile_section_content .value {
+}
+
+#meaning_life_label,#five_things_label,#for_fun_label,#craziest_thing_label,#be_anywhere_label,#know_me_label,#favorite_books_label,#favorite_songs_label,#favorite_movies_label,#hobbies_label,#talents_label,#perfect_mate_label,#perfect_date_label,#turn_ons_label {
+/* caratteristiche del font usato per le domande di "interessi ed hobby" */
+  text-align:center!important;
+  color:#ddc779;
+  text-transform:uppercase;
+  font-family:;
+  font-size:14px;
+}
+
+#meaning_life_value,#five_things_value,#for_fun_value,#craziest_thing_value,#be_anywhere_value,#know_me_value,#favorite_books_value,#favorite_songs_value,#favorite_movies_value,#hobbies_value,#talents_value,#perfect_mate_value,#perfect_date_value,#turn_ons_value {
+/* caratteristiche del font usato per le risposte alle domande di "interessi ed hobby" */
+  text-align:center!important;
+  color:#d6d3d3;
+  font-family:;
+  font-size:14px;
+}
+
+#meaning_life_container,#five_things_container,#for_fun_container,#craziest_thing_container,#be_anywhere_container,#know_me_container,#favorite_books_container,#favorite_songs_container,#favorite_movies_container,#hobbies_container,#talents_container,#perfect_mate_container,#perfect_date_container,#turn_ons_container {
+  display:none;
+}
+
+/* ========================================================================
+       Sezione dei diritti d'autore
+   ====================================================================== */
+.Copyright {
+  display:inline-block;
+  position:relative;
+  margin:40px auto;
+  height:20px;
+  width:100%;
+  text-align:center;
+  font-size:12px;
+  font-weight:400;
+  color:black;
+  font-style:normal;
+  z-index:1;
+  background-color:;
+}
+
+.dirittilogo {
+  position:relative;
+  top:1px;
+  height:12px;
+}
+
+.divietodiriproduzione {
+  display:block;
+  color:#665b69;
+  font-size:10px;
+  margin-top:1px;
+  text-decoration:;
+}
+
+/* ------------------------- Stilizzazione dei link ----------------------------- */
+.Copyright > a:link {
+  color:#ba6ecc;
+  text-decoration:none;
+/* per togliere la sottolineatura */
+}
+
+.Copyright > a:visited {
+  color:#ba6ecc;
+}
+
+.Copyright > a:active {
+  color:#ba6ecc;
+}
+
+.Copyright > a:hover {
+  color:black;
+}
+
+/* -------------------------  Fine Stilizzazione dei link ----------------------------- */
+/* ========================================================================
+    Sezione dei Commenti
+   ====================================================================== */
+#profile_comments {
+  display:none;
+}
+
+#new_comment_login_message {
+  color:white;
+}
+
+#wall_poster_avatar {
+  display:none;
+/* per togliere la foto dalla sezione del nuovo commento */
+}
+
+.user_comment_textarea_big {
+  width:710px;
+/* per allargare l'area dove si scrive un nuovo commento */
+  height:125px;
+  box-shadow:inset 0 0 16px #333);
+}
+
+.user_comment_textarea_small {
+  width:710px;
+/* per allargare l'area dove si scrive un nuovo commento */
+  height:125px;
+  box-shadow:inset 0 0 16px #333);
+}
+
+#user_comment_comment {
+/* caratterisitche del font e dello spazio dove si scrive un commento */
+  font-size:14px;
+  box-shadow:inset 0 0 10px rgba(0,0,0,0.2);
+  -moz-box-shadow:inset 0 0 50pxrgba(0,0,0,0.2);
+  -o-box-shadow:inset 0 0 50px rgba(0,0,0,0.2);
+  -webkit-box-shadow:inset 0 0 20px rgba(0,0,0,0.2);
+  border:1px solid grey;
+}
+
+.wall_post {
+  background-color:;
+/* intero blocco che comprende tutti gli elementi di un singolo commento: titolo, avatar, orario etc... */
+  margin:0 auto;
+  min-height:93px;
+  background-color:;
+}
+
+/* ------------------------- Stilizzazione dei link ----------------------------- */
+.wall_post_info > a:link {
+  color:white;
+  text-decoration:none;
+/* per togliere la sottolineatura */
+}
+
+.wall_post_info > a:visited {
+  color:white;
+}
+
+.wall_post_info > a:active {
+  color:white;
+}
+
+.wall_post_info > a:hover {
+  color:white;
+}
+
+/* -------------------------  Fine Stilizzazione dei link ----------------------------- */
+.wall_post_body {
+/* colore testo dei commenti */
+  color:white;
+  overflow:visible;
+  position:relative;
+  margin-left:160px;
+  font-size:14px;
+  font-style:italic;
+}
+
+.wall_post_body img {
+  max-height:200px;
+}
+
+.wall_post_body iframe {
+  max-height:340px;
+  max-width:450px;
+}
+
+.wall_post_avatar img {
+/* foto dei commentatori */
+  width:60px;
+  height:60px;
+  border:1px solid white;
+  border-radius:50px;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  -o-border-radius:50px;
+  z-index:9999;
+  margin:10px 0 0 20px;
+}
+
+.wall_post_info {
+/* caratterisitche del font dei nomi dei commentatori */
+  font-size:13px;
+  background:-moz-linear-gradient(left,rgba(192,151,114,1) 0%,rgba(192,151,114,0) 100%);
+/* FF3.6-15 */
+  background:-webkit-linear-gradient(left,rgba(192,151,114,1) 0%,rgba(192,151,114,0) 100%);
+/* Chrome10-25,Safari5.1-6 */
+  background:linear-gradient(to right,rgba(192,151,114,1) 0%,rgba(192,151,114,0) 100%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c09772',endColorstr='#00c09772',GradientType=1);
+/* IE6-9 */
+  width:400px;
+  margin:10px 100px;
+  color:white;
+  font-style:italic;
+  padding:2px;
+}
+
+#wall_poster_username {
+/* nome del commentatore */
+  font-size:15px;
+  opacity:1;
+  margin-left:180px;
+  padding-left:10px;
+}
+
+.wall_post_body {
+/* spazio occupato dal commento */
+  width:738px;
+  background-color:#3f3c46;
+  box-shadow:4px 4px 20px rgba(0,0,0,0.2);
+  -moz-box-shadow:4px 4px 20px rgba(0,0,0,0.2);
+  -o-box-shadow:4px 4px 20px rgba(0,0,0,0.2);
+  -webkit-box-shadow:0 6px 30px rgba(0,0,0,0.15);
+  padding:20px;
+  position:relative;
+  float:left;
+  left:-65px;
+  top:-60px;
+  -ms-transform:rotate(0deg);
+  -webkit-transform:rotate(0deg);
+  transform:rotate(0deg);
+  border:1px solid rgb(136,128,115);
+  font-size:14px;
+  color:#dad9d8;
+}
+
+.wall_post_avatar {
+  background-image:url();
+/* immagine per i commentatori che non hanno una foto */
+  background-repeat:no-repeat;
+  background-size:100%;
+  border-radius:100px;
+  -webkit-border-radius:100px;
+  -moz-border-radius:100px;
+  -o-border-radius:100px;
+  height:100px;
+  width:100px;
+}
+
+.wall_post_time {
+/* data pubblicazione del commento */
+  font-size:8px;
+  float:right;
+  margin:-29px 30px;
+  color:#9a9898;
+  padding:3px;
+  background-color:;
+}
+
+#comments {
+/* intero spazio che contiene i commenti */
+  margin-bottom:40px;
+  background-color:;
+}
+
+#new_comment {
+  margin:35px 0 15px;
+  background-color:;
+/* colore sfondo area nuovo commento */
+}
+
+#new_comment input {
+/* caratterisitche dei tasti per inviare un nuovo commento */
+  background-color:#E8E8E8;
+  font-size:10px;
+  border:1px solid #ccc;
+  border-radius:15px 5px 15px 5px;
+  -webkit-border-radius:15px 5px 15px 5px;
+  -moz-border-radius:15px 5px;
+  -o-border-radius:15px 5px 15px 5px;
+  transition:.5s ease-in-out;
+  -moz-transition:.2s ease-in-out;
+  -o-transition:.2s ease-in-out;
+  -webkit-transition:.2s ease-in-out;
+  -ms-transition:.2s ease-in-out;
+}
+
+#new_comment input:hover {
+  border-radius:5px 15px 5px 15px;
+  -webkit-border-radius:5px 15px 5px 15px;
+  -moz-border-radius:5px 15px;
+  -o-border-radius:5px 15px 5px 15px;
+}
+
+#new_comment_inputs {
+  max-width:750px;
+}
+
+#new_comment_buttons {
+/* scritta "strip links" dopo aver postato un commento */
+  color:white;
+  margin-bottom:40px;
+  font-size:10px;
+}
+
+#profile_load_more_comments {
+  border:1px solid white;
+  text-transform:capitalize;
+  width:170px;
+  height:35px;
+  line-height:35px;
+  margin-left:385px;
+  font-size:10px;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+}
+
+#profile_load_more_comments:hover {
+  opacity:.6;
+}
+
+#strip_links_popup {
+  border:2px solid white;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+}
+
+#new_comment_strip_links_container {
+  display:none;
+}
+
+#new_comment_login_message {
+  font-size:11px;
+  background-color:re;
+  text-align:center;
+  width:700px;
+  margin-left:150px;
+  color:grey;
+  padding-bottom:30px;
+}
+
+/* ==============================================
+Friends Section (amici)
+============================================== */
+/* tutto il blocco */
+#profile_friends {
+  background-color:yello;
+  width:300px;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align:center;
+  margin-left:350px;
+  display:none;
+}
+
+/* tutti i contenitori */
+#average_rating_container,#rate_container,#admirers_container,#friends_container,#favorite_models_container,#favorite_models_value,#favorite_models_container {
+  margin:0 auto;
+  background-color:viole;
+}
+
+/* tutte le etichette */
+#favorite_models_label,#friends_label,#admirers_label,#rate_label,#average_rating_label {
+  background-color:re;
+  text-align:center;
+  min-width:300px;
+  max-width:300px;
+  color:#c5c3c3;
+  display:block;
+}
+
+/* tutti i valori */
+#average_rating_value,#rate_value,#admirers_value,#friends_value,#favorite_models_value.value {
+  background-color:gree;
+  width:380px;
+  text-align:center;
+  padding-bottom:20px;
+}
+
+/* stelline per votare */
+#profile_friends img {
+  display:inline-block;
+  position:relative;
+  height:10px;
+  margin-right:4px;
+}
+
+#admirers_value,#friends_value,#admirers_value,#favorite_models_value,#average_rating_count,#favorite_models_value,#rate_container,#admirers_container,#friends_container,#favorite_models_container,#favorite_models_value,#average_rating_container,.friends_value,.admirers_value,.profile_section_content .value {
+  font-size:10px;
+  color:grey;
+}
+
+/* conferme tasti per votare, ammirare e aggiunta agli amici */
+#admire_confirm,#make_friend_confirm,#rating_confirm {
+  color:grey;
+  font-size:10px;
+}
+
+#friends_value {
+  font-size:10px;
+  color:grey;
+}
+
+#profile_friends > div:nth-child(1) {
+  display:none;
+}
+
+/* scritte cliccabili */
+#make_friend,#admire {
+  color:white;
+}
+
+/* stilizzazione link */
+#profile_friends > a:link {
+  color:white;
+}
+
+#profile_friends > a:hover {
+  color:white;
+}
+
+#profile_friends > a:visited {
+  color:white;
+}
+
+#profile_friends > a:active {
+  color:white;
+}
+
+/* ==============================================
+Posizionamento dei blocchi
+============================================== */
+#aboutme {
+  margin-top:-100px;
+}
+
+#share {
+  margin-top:-120px;
+}
+
+#tipmenu {
+  margin-top:-120px;
+}
+
+#clubs {
+  margin-top:-150px;
+}
+
+#HT {
+  margin-top:-200px;
+}
+
+#raffle {
+  margin-top:-140px;
+}
